@@ -1,18 +1,64 @@
-// $(document).ready(function () {
+function sendNow(name,email) {
+  this.firstName = first;
+  this.lastName = last;
+  this.travavelPackage = [];
+  this.noOfPeople=[];
+  this.arrivalDate=[];
+  this.departureDate=[];
+}
+
+// $(document).ready(function() {
 //
-//         $("#arrive").form-control({
-// 			showOn: "button",
-// 			buttonImage: "http://www.tembeaafrica.co.ke/wp-content/themes/twentyseventeen/datepicker.jpg",
-// 			buttonImageOnly: true,
-// 			buttonText: "Select date",
-//             dateFormat: "mm/dd/yy",
-// 			minDate: 0,
-//             onSelect: function (date) {
-//                 var date2 = $('#arrive').form-control('getDate');
-//                 date2.setDate(date2.getDate() + 1);
-//                 $('#depart').form-control('setDate', date2);
-//                 //sets minDate to arrive date + 1
-//                 $('#depart').form-control('option', 'minDate', date2);
+//   $("#add-address").click(function() {
+//     $("#new-addresses").append('<div class="new-address">' +
+//                                  '<div class="form-group">' +
+//                                    '<label for="new-street">Street</label>' +
+//                                    '<input type="text" class="form-control new-street">' +
+//                                  '</div>' +
+//                                  '<div class="form-group">' +
+//                                    '<label for="new-city">City</label>' +
+//                                    '<input type="text" class="form-control new-city">' +
+//                                  '</div>' +
+//                                  '<div class="form-group">' +
+//                                    '<label for="new-county">County</label>' +
+//                                    '<input type="text" class="form-control new-county">' +
+//                                  '</div>' +
+//                                '</div>');
+//   });
+
+//   $("form#new-contact").submit(function(event) {
+//     event.preventDefault();
 //
-//             }
-//         });
+//     var inputtedName = $("input#new-name").val();
+//     var inputtedEmail = $("input#new-email").val();
+//     var newBooking = new Booking(inputtedName, inputtedEmail);
+//
+//     $(".new-address").each(function() {
+//       var inputtedStreet = $(this).find("input.new-street").val();
+//       var inputtedCity = $(this).find("input.new-city").val();
+//       var inputtedCounty = $(this).find("input.new-county").val();
+//       var newAddress = new Address(inputtedStreet, inputtedCity, inputtedCounty)
+//       newContact.addresses.push(newAddress)
+//     });
+//
+//     $("ul#contacts").append("<li><span class='contact'>" + newContact.fullName() + "</span></li>");
+//
+//     $(".contact").last().click(function() {
+//       $("#show-contact").show();
+//       $("#show-contact h2").text(newContact.fullName());
+//       $(".first-name").text(newContact.firstName);
+//       $(".last-name").text(newContact.lastName);
+//       $("ul#addresses").text("");
+//       newContact.addresses.forEach(function(address) {
+//     $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
+//       });
+//     });
+//
+//     $("input#new-first-name").val("");
+//     $("input#new-last-name").val("");
+//     $("input.new-street").val("");
+//     $("input.new-city").val("");
+//     $("input.new-county").val("");
+//
+//   });
+// });
