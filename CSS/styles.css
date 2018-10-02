@@ -1,0 +1,18 @@
+body {
+   text-align: center;
+   background-color: salmon;
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUv8lzJWvHVejZoVOIf-ofuNqxPKlFJenF85b_7HKwHXKcrNthVA"); */
+}
+p{
+   color:blue;
+}
+h1{
+   color:red;
+}
+.carousel-inner{
+  /* width:600px; */
+  margin-left: 28%;
+}
+#book-now{
+   color:grey;
+}
