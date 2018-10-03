@@ -1,64 +1,46 @@
-function sendNow(name,email) {
-  this.firstName = first;
-  this.lastName = last;
-  this.travavelPackage = [];
-  this.noOfPeople=[];
-  this.arrivalDate=[];
-  this.departureDate=[];
-}
+// function sendNow(name,email) {
+//   this.firstName = first;
+//   this.lastName = last;
+//   this.travavelPackage = [];
+//   this.noOfPeople=[];
+//   this.arrivalDate=[];
+//   this.departureDate=[];
+// }
 
-// $(document).ready(function() {
-//
-//   $("#add-address").click(function() {
-//     $("#new-addresses").append('<div class="new-address">' +
-//                                  '<div class="form-group">' +
-//                                    '<label for="new-street">Street</label>' +
-//                                    '<input type="text" class="form-control new-street">' +
-//                                  '</div>' +
-//                                  '<div class="form-group">' +
-//                                    '<label for="new-city">City</label>' +
-//                                    '<input type="text" class="form-control new-city">' +
-//                                  '</div>' +
-//                                  '<div class="form-group">' +
-//                                    '<label for="new-county">County</label>' +
-//                                    '<input type="text" class="form-control new-county">' +
-//                                  '</div>' +
-//                                '</div>');
-//   });
+var sendNow = function( yourName, yourEmail, travavelPackage, noOfPeople,  arrrivalDate, departureDate) {
+  return yourName + yourEmail + travavelPackage + NoOfPeople + arrrivalDate + departureDate;
 
-//   $("form#new-contact").submit(function(event) {
-//     event.preventDefault();
-//
-//     var inputtedName = $("input#new-name").val();
-//     var inputtedEmail = $("input#new-email").val();
-//     var newBooking = new Booking(inputtedName, inputtedEmail);
-//
-//     $(".new-address").each(function() {
-//       var inputtedStreet = $(this).find("input.new-street").val();
-//       var inputtedCity = $(this).find("input.new-city").val();
-//       var inputtedCounty = $(this).find("input.new-county").val();
-//       var newAddress = new Address(inputtedStreet, inputtedCity, inputtedCounty)
-//       newContact.addresses.push(newAddress)
-//     });
-//
-//     $("ul#contacts").append("<li><span class='contact'>" + newContact.fullName() + "</span></li>");
-//
-//     $(".contact").last().click(function() {
-//       $("#show-contact").show();
-//       $("#show-contact h2").text(newContact.fullName());
-//       $(".first-name").text(newContact.firstName);
-//       $(".last-name").text(newContact.lastName);
-//       $("ul#addresses").text("");
-//       newContact.addresses.forEach(function(address) {
-//     $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
-//       });
-//     });
-//
-//     $("input#new-first-name").val("");
-//     $("input#new-last-name").val("");
-//     $("input.new-street").val("");
-//     $("input.new-city").val("");
-//     $("input.new-county").val("");
-//
-//   });
-// });
+}//End of Business logic
+
+//User Interface
+$(document).ready(function(event){
+  $("form#form-group").submit(function(event){
+
+  event.preventDefault();
+  var name =document.getElementById('Name').value;
+  var emailAddress =document.getElementById('email').value;
+  var travavelPackage =document.getElementById('Travavel Package').value;
+  var arrivalDate =document.getElementById('arrive').value;
+  var departureDate =document.getElementById('depart').value;
+
+
+  var formGroup = sendNow(yourName, yourEmail, travavelPackage, noOfPeople,  arrrivalDate, departureDate)
+  $(".form-group").hide();
+  console.log("send");
+  //$("#outputs").text(invitedGroup)
+});
+});
+
+
+
+
+$(document).ready(function(){
+       $("#back-1").click(function(){
+         $(".Details1").hide();
+         $(".Details2").show();
+       });
+       $("#back-2").click(function(){
+         $(".Details3").show();
+         $(".Details2").hide();
+       });
+     });

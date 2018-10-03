@@ -10,7 +10,7 @@
  <title>TRACE </title>
  <div id="container">
    <nav>
-   <a href="#BOOK NOW">BOOK NOW</a>
+   <a href="#book-now">BOOK NOW</a>
 </nav>
 <div id="book-now">
   <img src="http://www.yashtoursandtravels.com/wp-content/uploads/2018/02/Hotel-Booking.jpg" width="45%">
@@ -53,18 +53,21 @@
     <div class="jumbotron">
 <h1>BOOK YOUR SAFARI</h1>
 </div>
+ <form>
+ <div class="form-group">
 <div class="col-md-12">
 <div class="well">
-<p><label>Your Name (required)<br />
-  <input type="text" name="Your Name" size="40" required</label></p>
-  <p><label>Your email (required)<br />
-    <input type="text" name="Your email" size="40" required</label></p>
+  <p><label>Your Name <br />
+  <input type="text" name="Your Name" id="name" size="40" required</label></p>
+   <p><label>Your email <br />
+    <input type="text" name="Your email" id="email" size="40" required</label></p>
   </div>
+    </form>
   <!-- <div class="col-md-6"> -->
   <div class="new-footer-left">
   <div class="upper-new-left-footer">
-<p><label>Travel Package<br />
-  <select class="form-control" id="Travel package" required>
+  <p><label>Travel Package<br />
+  <select class="form-control" type="text" id="Travel package" required></p>
         <option >Select a province</option>
         <option value="1">Nyanza/Western province</option>
         <option value="2">Nairobi province</option>
@@ -76,8 +79,8 @@
     </div>
     <div class="col-md-12">
     <div class="well">
-        <p><label>No of people <br />
-          <select class="form-control" id="No of people" required>
+         <p><label>No of people <br />
+          <select class="form-control"type="number" id="Number" value="" required></p>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -93,39 +96,23 @@
   <div class="col-md-">
     <!-- <div class="well"> -->
         <div class="form-group">
-        <p><label for="Arrival" id="arrive">Arrival Date:<br />
-        <input class="form-control" type="date" size="70" required>
-        <p><label for="Departure">Departure Date:<br />
-        <input class="form-control" type="date" size="40" required>
+         <p><label for="Arrival" id="arrive">Arrival Date:<br />
+        <input class="form-control" type="date" size="70" required></p>
+        <p><label for="Departure" id="depart">Departure Date:<br />
+        <input class="form-control" type="date" size="40" required></p>
+        <button type="submit" name="submit" class="btn btn-success" value="SEND-NOW">SEND-NOW</button>
       </div>
     </div>
       </div>
         </div>
       </div>
-      <div class="container-fluid">
-      <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <div id="booking"  class="wow fadeInUp">
-      <div class="entry">
-      <!-- <h1>book a safari</h1> -->
-      <div class="caldera-grid" id="caldera_form_1" data-cf-ver="1.5.2.1" data-cf-form-id="CF5926c2b23c328"><div id="caldera_notices_1" data-spinner="http://www.tembeaafrica.co.ke/wp-admin/images/spinner.gif"></div><form data-instance="1" class="CF5926c2b23c328 caldera_forms_form cfajax-trigger" method="POST" enctype="multipart/form-data" role="form" id="CF5926c2b23c328_1" data-target="#caldera_notices_1" data-template="#cfajax_CF5926c2b23c328-tmpl" data-cfajax="CF5926c2b23c328" data-load-element="_parent" data-load-class="cf_processing" data-post-disable="0" data-action="cf_process_ajax_submit" data-request="http://www.tembeaafrica.co.ke/cf-api/CF5926c2b23c328" data-hiderows="true">
-      <input type="hidden" id="_cf_verify_CF5926c2b23c328" name="_cf_verify" value="653742b713"  data-nonce-time="1538387661" /><input type="hidden" name="_wp_http_referer" value="/" /><input type="hidden" name="_cf_frm_id" value="CF5926c2b23c328">
-      <input type="hidden" name="_cf_frm_ct" value="1">
-      <input type="hidden" name="cfajax" value="CF5926c2b23c328">
-      <input type="hidden" name="_cf_cr_pst" value="2">
-      <div class="hide" style="display:none; overflow:hidden;height:0;width:0;">
-      <label>Web Site</label><input type="text" name="web_site" value="" autocomplete="off">
-      </div><div id="form_page_1_pg_1" data-formpage="1" class="caldera-form-page" style="display:block;" role="region" aria-labelledby="breadcrumb_1_pg_1" aria-hidden="false"><div id="CF5926c2b23c328_1-row-1"  class="row  first_row"><div  class="col-sm-12  first_col"><div role="field" data-field-wrapper="fld_5973832" class="form-group">
-      <div class="">
-      	<input  class="btn btn-success" type="submit" name="fld_3473220" id="fld_3473220_1" value="SEND NOW" data-field="fld_3473220"   aria-labelledby="fld_3473220Label">
+    </form>
+        <button type="refresh" name="refresh" class="btn btn-danger" value="refresh">REFRESH</button>
+    </div>
         <div class="panel-footer">
           <p>Panel Footer</p>
       </div>
       </div>
-
-
-
-
       <div id="new-footer" class="wow fadeInUp">
       <div class="container-fluid">
       <div class="row">
@@ -164,6 +151,40 @@
          </div>
 
         </div>
+      <!-- <div class="container">
+        <h1>Sign Up</h1><br>
+            <p>Please fill in this form to create an account.</p><br>
+            <div class="registeredUsers">
+              <form id="invite">
+                <div class="form-group">
+                  <label>User name:</label>
+                  <input type="text" name="user-name" value="" required>
+                </div><br>
+                <div class="form-group">
+                  <label>Email address:</label>
+                  <input type="text" name="email-address" value="" required>
+                </div><br><br>
+                <div class="form-group">
+                  <label>Password:</label>
+                  <input type="text" name="your-password" value="" required>
+                </div><br><br>
+                <div class="form-group">
+                  <label>Confirm password:</label>
+                  <input type="text" name="mine-password" value="" required>
+                </div><br><br>
+              </div>
+
+                <button class="bg-warning" type="submit" class="btn">Register</button>
+              </form>
+              <div id="outputs"></div><br>
+            <p>If you already have the account, you can proceed and <a href="login.html"><em>Sign In</em></a> to continue ejoying the services.</p>
+          </div>
+
+          </div>
+        </div> -->
+
+
+
 
       </div>
     </div>
