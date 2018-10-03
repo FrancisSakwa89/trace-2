@@ -58,7 +58,7 @@
 <div class="col-md-12">
 <div class="well">
   <p><label>Your Name <br />
-  <input type="text" name="Your Name" id="name" size="40" required</label></p>
+   <input type="text" name="Your Name" id="name" size="40" required</label></p>
    <p><label>Your email <br />
     <input type="text" name="Your email" id="email" size="40" required</label></p>
   </div>
@@ -80,7 +80,7 @@
     <div class="col-md-12">
     <div class="well">
          <p><label>No of people <br />
-          <select class="form-control"type="number" id="Number" value="" required></p>
+        <select class="form-control"type="number" id="Number" value="" required></p>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -94,24 +94,25 @@
    </div>
    <div class="row">
   <div class="col-md-">
-    <!-- <div class="well"> -->
+    <div class="panel panel-info">
         <div class="form-group">
          <p><label for="Arrival" id="arrive">Arrival Date:<br />
         <input class="form-control" type="date" size="70" required></p>
         <p><label for="Departure" id="depart">Departure Date:<br />
         <input class="form-control" type="date" size="40" required></p>
-        <button type="submit" name="submit" class="btn btn-success" value="SEND-NOW">SEND-NOW</button>
+         <button type="submit" id="submit" class="btn btn-success" value="SEND-NOW"><a href="mailto:sakwafrancis89@gmail.com=Blog Feedback">Send us an email.</a></button>
+        <input type="reset" class="btn btn-warning" value="Reset">
       </div>
     </div>
       </div>
         </div>
       </div>
-    </form>
-        <button type="refresh" name="refresh" class="btn btn-danger" value="refresh">REFRESH</button>
+      <p>We want to hear from you! <a href="https://mail.google.com/mail/#inbox?compose=new" target="_blank">Send us an email.</a></p>
+        <!-- <button type="refresh" id="refresh" class="btn btn-danger" value="refresh">REFRESH</button> -->
     </div>
         <div class="panel-footer">
           <p>Panel Footer</p>
-      </div>
+
       </div>
       <div id="new-footer" class="wow fadeInUp">
       <div class="container-fluid">
@@ -122,7 +123,7 @@
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXudyVkOFLiedbxivYkpJfYWWvuS58USuymTmxHjIJbc7ZHSu3jQ" width="60" height="50" alt=""/>
       <h4>Email Now</h4>
-          <p>info@tracekenya.co.ke</p>
+          <p>sakwafrancis89@gmail.com</p>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMqXI3D-ypMEKjeKyaid1TB7ZKoXOwKwRYnKJ-Tertig1jwAYr" width="60" height="60" alt=""/>
@@ -151,41 +152,9 @@
          </div>
 
         </div>
-      <!-- <div class="container">
-        <h1>Sign Up</h1><br>
-            <p>Please fill in this form to create an account.</p><br>
-            <div class="registeredUsers">
-              <form id="invite">
-                <div class="form-group">
-                  <label>User name:</label>
-                  <input type="text" name="user-name" value="" required>
-                </div><br>
-                <div class="form-group">
-                  <label>Email address:</label>
-                  <input type="text" name="email-address" value="" required>
-                </div><br><br>
-                <div class="form-group">
-                  <label>Password:</label>
-                  <input type="text" name="your-password" value="" required>
-                </div><br><br>
-                <div class="form-group">
-                  <label>Confirm password:</label>
-                  <input type="text" name="mine-password" value="" required>
-                </div><br><br>
-              </div>
 
-                <button class="bg-warning" type="submit" class="btn">Register</button>
-              </form>
-              <div id="outputs"></div><br>
-            <p>If you already have the account, you can proceed and <a href="login.html"><em>Sign In</em></a> to continue ejoying the services.</p>
-          </div>
-
-          </div>
-        </div> -->
-
-
-
-
+  <div id="message">
+  </div>
       </div>
     </div>
 </body>
