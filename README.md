@@ -12,11 +12,11 @@
 * Tourism being among the major Kenya's income tourists are able to apply/book for a tour on our app.
 * Our app also breaks down these minor tourist destinations and identifies their location.
 ### Installation Requirements
-You require to have your own pc
-Open your browser and serach
-Chose a trace-2 repository
-Open your atom/visual studio code
-git clone the link and work on it if it's your preffered text editor.
+* You require to have your own pc
+* Open your browser and serach
+* Chose a trace-2 repository
+* Open your atom/visual studio code
+* git clone the link and work on it if it's your preffered text editor.
 #### BDD
 
 ### Technologies Used
@@ -30,6 +30,6 @@ git clone the link and work on it if it's your preffered text editor.
  * 0701112358
  * email: sakwafrancis89@gmail.com
 
-## [License](https://opensource.org/licenses/MIT)
+[License](https://opensource.org/licenses/MIT)
 Copyright (c) 2018 Trace Kenya
 
