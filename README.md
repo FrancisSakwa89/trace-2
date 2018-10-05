@@ -30,6 +30,8 @@
  * 0701112358
  * email: sakwafrancis89@gmail.com
 
-[License](https://opensource.org/licenses/MIT)
+### LICENSE
+[MIT License](https://choosealicense.com/licenses/mit/#)
+
 Copyright (c) 2018 Trace Kenya
 
