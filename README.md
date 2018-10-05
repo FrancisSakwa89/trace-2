@@ -12,6 +12,8 @@ This repo was compiled by:
 * [Francis Sakwa](https://github.com/FrancisSakwa89/trace-2)
 * [Vincent Otach](https://github.com/FrancisSakwa89/trace-2)
 * [Benson Okwara](https://github.com/FrancisSakwa89/trace-2)
+* [Jamleck Ndung'u]
+* [Eric Ngotho]
 
 * The application discovers minor tourist destination in kenya and markets them to the world through this app.
 * Tourism being among the major Kenya's income tourists are able to apply/book for a tour on our app.
