@@ -8,12 +8,12 @@ To get started :bowtie:, simply fork this repo.
 ## [Credits](https://github.com/FrancisSakwa89/trace-2)
 This repo was compiled by:
 
-* [Kerneal Apuko](http://twitter.com/karangoel)
+* [Kerneal Apuko](https://github.com/Kerneal92/trace-2)
 * [Francis Sakwa](https://github.com/FrancisSakwa89/trace-2)
 * [Vincent Otach](https://github.com/FrancisSakwa89/trace-2)
-* [Benson Okwara](https://github.com/FrancisSakwa89/trace-2)
-* [Jamleck Ndung'u]
-* [Eric Ngotho]
+* [Benson Okwara](https://github.com/BenOkwara/trace-2)
+* [Jamleck Ndung'u](https://github.com/jahmu/trace-2)
+* [Eric Ngotho](https://github.com/Rickyngotho/trace-2)
 
 * The application discovers minor tourist destination in kenya and markets them to the world through this app.
 * Tourism being among the major Kenya's income tourists are able to apply/book for a tour on our app.
