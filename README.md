@@ -16,11 +16,11 @@ This repo was compiled by:
 * [Eric Ngotho](https://github.com/Rickyngotho/trace-2)
 
 ## Installation Requirements
-* You require to have your own pc
-* Open your browser and serach
-* Chose a trace-2 repository
+* You require to have your own pc/smartphone
+* Open your browser and search jahmu/trace-2
+* Fork the repo
 * Open your atom/visual studio code
-* git clone the link and work on it if it's your preffered text editor.
+* Work on it if it's your preffered text editor.
 
 #### BDD
 
