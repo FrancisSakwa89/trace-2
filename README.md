@@ -45,5 +45,5 @@ This repo was compiled by:
 ### LICENSE
 [MIT License](https://choosealicense.com/licenses/mit/#)
 
- __Copyright (c) 2018 Trace Kenya
+ __Copyright (c) 2018 Trace Kenya__
 
