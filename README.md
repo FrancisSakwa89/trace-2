@@ -17,7 +17,7 @@ This repo was compiled by:
 
 ## Installation Requirements
 * You require to have your own pc/smartphone
-* Open your browser and search jahmu/trace-2
+* Open your browser and search jahmu
 * Fork the repo
 * Open your atom/visual studio code
 * Work on it if it's your preffered text editor.
