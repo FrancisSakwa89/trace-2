@@ -15,11 +15,7 @@ This repo was compiled by:
 * [Jamleck Ndung'u](https://github.com/jahmu/trace-2)
 * [Eric Ngotho](https://github.com/Rickyngotho/trace-2)
 
-* The application discovers minor tourist destination in kenya and markets them to the world through this app.
-* Tourism being among the major Kenya's income tourists are able to apply/book for a tour on our app.
-* Our app also breaks down these minor tourist destinations and identifies their location.
-
-### Installation Requirements
+## Installation Requirements
 * You require to have your own pc
 * Open your browser and serach
 * Chose a trace-2 repository
